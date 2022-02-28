@@ -11,28 +11,28 @@
 }
 .heading {
   font-weight: 700;
+  margin-left: 140px;
   font-size: 40px;
 }
 .header {
   display: flex;
   text-align: left;
-  margin-left: 140px;
-  margin-top: 20px;
+  margin: 20px;
   color: #333;
-  border-bottom: 4px solid #333;
+  border-bottom: 3px solid rgb(121, 121, 121);
   align-items: center;
   justify-content: space-between;
 }
-.links a{
-    margin-right: 120px;
-    font-size: 24px;
-    color: rgba(51, 51, 51, 0.568);
-    text-decoration: none;
+.links a {
+  margin-right: 120px;
+  font-size: 20px;
+  color: rgba(51, 51, 51, 0.568);
+  text-decoration: none;
 }
-.links a:hover{
-    color: #333;
-    text-decoration: none;
-    transition: 0.5s;
+.links a:hover {
+  color: #333;
+  text-decoration: none;
+  transition: 0.5s;
 }
 .iit,
 .nit,
@@ -52,4 +52,46 @@ h2 {
 td,
 tr {
   background-color: transparent !important;
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    text-align: center;
+    margin: 10px;
+    font-size: 36px;
+  }
+  .header {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .links a {
+    display: none;
+  }
+  .content {
+    width: 100%;
+  }
+  h2 {
+  font-weight: 300;
+  font-size: 24px !important;
+  width: 80%;
+  margin: 0px;
+  margin: auto;
+}
+  .iit,
+  .nit,
+  .tier3 {
+    margin: 10px 0px;
+    text-align: center;
+  }
+  .table {
+    width: 80% !important;
+    margin: auto !important;
+    font-size: 14px !important;
+  }
+  .details {
+  width: 100%;
+}
+
 }
