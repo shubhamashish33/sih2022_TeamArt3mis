@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@100;300;400;700&display=swap');
 
 * {
   margin: 0;
@@ -47,6 +47,12 @@
 }
 h2 {
   font-weight: 300;
+  font-family: "Playfair Display", serif !important;
+
+}
+
+th {
+  background-color: #dad3c2 !important;
 }
 
 td,
@@ -73,12 +79,12 @@ tr {
     width: 100%;
   }
   h2 {
-  font-weight: 300;
-  font-size: 24px !important;
-  width: 80%;
-  margin: 0px;
-  margin: auto;
-}
+    font-weight: 300;
+    font-size: 24px !important;
+    width: 80%;
+    margin: 0px;
+    margin: auto;
+  }
   .iit,
   .nit,
   .tier3 {
@@ -91,7 +97,6 @@ tr {
     font-size: 14px !important;
   }
   .details {
-  width: 100%;
-}
-
+    width: 100%;
+  }
 }
