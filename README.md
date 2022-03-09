@@ -12,6 +12,7 @@ For Smart India Hackathon 2022
 - HTML
 - CSS
 - Javascript
+- Bootstrap
 
 ### Team Member
 1. Shubham Ashish
