@@ -2,6 +2,17 @@ $(document).ready(function () {
   $("#myTable").DataTable();
   $("#myTable1").DataTable();
   $("#myTable2").DataTable();
+  $("#m1").modal('show');
+  $("#m2").modal('show');
+  $("#m3").modal('show');
+  $("#m4").modal('show');
+  $("#m5").modal('show');
+  $("#m6").modal('show');
+  $("#m7").modal('show');
+  $("#m8").modal('show');
+  $("#m9").modal('show');
+  $("#m10").modal('show');
+  $("#m11").modal('show');
 });
 
 // const excel_file = document.getElementById("excel_file");
