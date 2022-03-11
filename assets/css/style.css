@@ -82,6 +82,10 @@ h2 {
   font-weight: 300;
   font-family: "Playfair Display", serif !important;
 }
+.btn{
+  background-color: #08122f !important;
+  border-color: #08122f !important;
+}
 
 th {
   background-color: #08122f !important;
