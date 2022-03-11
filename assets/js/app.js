@@ -3,17 +3,19 @@ $(document).ready(function () {
   $("#myTable1").DataTable();
   $("#myTable2").DataTable();
 });
-$("#m1").modal();
-$("#m2").modal();
-$("#m3").modal();
-$("#m4").modal();
-$("#m5").modal();
-$("#m6").modal();
-$("#m7").modal();
-$("#m8").modal();
-$("#m9").modal();
-$("#m10").modal();
-$("#m11").modal();
+$(window).on("load", function () {
+  // $("#m1").modal();
+  // $("#m2").modal();
+  // $("#m3").modal();
+  // $("#m4").modal();
+  // $("#m5").modal();
+  // $("#m6").modal();
+  // $("#m7").modal();
+  // $("#m8").modal();
+  // $("#m9").modal();
+  // $("#m10").modal();
+  // $("#m11").modal();
+});
 
 // const excel_file = document.getElementById("excel_file");
 
